@@ -1,4 +1,57 @@
-.container
+*,*::after,*::before
 {
-    background: lightgreen;
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+    
+    
+    
+
+}
+
+
+ul{
+    background:lightslategray;
+    
+}
+.box
+{
+   
+    
+    background: coral;
+}
+.box:nth-of-type(1)
+{
+    background: brown;
+   flex:1 1 400px;
+   width: 100%;
+
+   
+   
+}
+.box:nth-of-type(2)
+{
+    background: lime;
+   flex:1 1;
+   width: 100%;
+}
+
+.container__nav
+{
+    
+    background: cornflowerblue;
+    margin: 32px;
+    display: flex;
+    border:1px solid black;
+    flex-wrap: wrap;
+    
+    
+    
+    
+
 }
